@@ -10,7 +10,6 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:cypress/recommended',
   ],
   overrides: [
     {
@@ -99,7 +98,7 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts', 'src/vite-env.d.ts', 'cypress'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts', 'src/vite-env.d.ts'],
   settings: {
     react: {
       version: 'detect',
