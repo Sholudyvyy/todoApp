@@ -23,5 +23,6 @@ A simple and stylish app for creating task lists. Perfect for keeping your tasks
 
    ```bash
    git clone https://github.com/Sholudyvyy/todoApp.git
-   npm i
+   cd todoApp
+   npm install
    npm start
