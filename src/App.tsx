@@ -56,7 +56,7 @@ export const App: React.FC = () => {
 
     if (!formatedTitle) {
       // eslint-disable-next-line @typescript-eslint/no-throw-literal
-      throw Errors.emptyTitleError;
+      throw new Error(Errors.emptyTitleError);
     }
 
     let newTodo: Todo = {
